@@ -182,6 +182,8 @@
 			"slug": "pnc",
 			"status": 3,
 			"color": "#1ba0aa",
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "2019-03-20 08:12:00",
 			"focus_areas": [
 				{
 					"title": "Hiring",
@@ -216,6 +218,95 @@
 					"status": 1
 				}
 			]
+		}
+	],
+	"clients": [
+		{
+			"id": 100,
+			"name": "Lead Inclusively",
+			"content_model": 1,
+			"primer_notice_timing": 5,
+			"content_notice_timing": 30,
+			"reflection_notice_titming": 60,
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "",
+			"created_by": 2
+		},
+		{
+			"id": 101,
+			"name": "PNC",
+			"content_model": 1,
+			"primer_notice_timing": 5,
+			"content_notice_timing": 30,
+			"reflection_notice_titming": 60,
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "",
+			"created_by": 2
+		},
+		{
+			"id": 102,
+			"name": "Nike",
+			"content_model": 1,
+			"primer_notice_timing": 5,
+			"content_notice_timing": 30,
+			"reflection_notice_titming": 60,
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "",
+			"created_by": 2
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"first_name": "Bob",
+			"last_name": "Smith",
+			"job_role": "Manager",
+			"job_dept": "Operations",
+			"email": "bobsmith@company.com",
+			"permission": 4,
+			"client_id": 101,
+			"emailed_verified_at": "2019-03-20 08:12:00",
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "2019-03-20 08:12:00"
+		},
+		{
+			"id": 2,
+			"first_name": "LI",
+			"last_name": "Admin",
+			"job_role": "",
+			"job_dept": "",
+			"email": "admin@li.tech",
+			"permission": 1,
+			"client_id": null,
+			"emailed_verified_at": "2019-03-20 08:12:00",
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "2019-03-20 08:12:00"
+		},
+		{
+			"id": 3,
+			"first_name": "Company",
+			"last_name": "Admin",
+			"job_role": "",
+			"job_dept": "",
+			"email": "admin@company.com",
+			"permission": 3,
+			"client_id": 101,
+			"emailed_verified_at": "2019-03-20 08:12:00",
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "2019-03-20 08:12:00"
+		},
+		{
+			"id": 4,
+			"first_name": "LI",
+			"last_name": "Content Editor",
+			"job_role": "",
+			"job_dept": "",
+			"email": "contenteditor@li.tech",
+			"permission": 2,
+			"client_id": null,
+			"emailed_verified_at": "2019-03-20 08:12:00",
+			"created_at": "2019-03-20 08:12:00",
+			"updated_at": "2019-03-20 08:12:00"
 		}
 	]
 }
